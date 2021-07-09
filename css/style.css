@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header-section {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwqd73FtKY5oBbsvvyvVyU_6Das83S-2P7iyeqR4n48t6oqBVWNTqFn7dGo7h7o39AvAU&usqp=CAU);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat;
+}
+
+#parallax-section {
+    background-image: url(../images/cover-bubble-dark.svg);
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#footer-section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../images/cover-bubble-dark.svg);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat;
+}
+p{
+    color: black;
+}
+h3{
+    color: black;
+}
